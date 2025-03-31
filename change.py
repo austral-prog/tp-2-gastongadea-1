@@ -10,7 +10,7 @@ def change():
     print()
     print('Pesos:')
     vuelto=money-expense
-    print(vuelto)
+    print(int(vuelto))
     print('Centavos:')
     cents=int((vuelto-int(vuelto))*100)
     print(cents)
